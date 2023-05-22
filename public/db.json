@@ -1,0 +1,84 @@
+[
+    {
+      "title": "Super Racer",
+      "company": "ToyCars Inc.",
+      "color": "Red",
+      "price": 19.99,
+      "details": "High-speed racing car toy with realistic sound effects",
+      "img": "https://e0.365dm.com/22/02/768x432/skysports-alpine-f1-car-2022_5681463.jpg?20220221175342",
+      "model": "SR-2023"
+    },
+    {
+      "title": "Off-Road Adventure",
+      "company": "Adventure Toys",                          
+      "color": "Blue",
+      "price": 24.99,
+      "details": "Off-road monster truck toy with rugged design and large tires",
+      "img": "https://m.media-amazon.com/images/I/71dYfrptAFL._SL1256_.jpg",
+      "model": "OA-2023"
+    },
+    {
+      "title": "City Cruiser",
+      "company": "Speedy Toys",
+      "color": "Yellow",
+      "price": 14.99,
+      "details": "Sleek and stylish city car toy with opening doors",
+      "img": "https://cdn.motor1.com/images/mgl/vRbpq/s3/lamborghini-huracan-sto.webp",
+      "model": "CC-2023"
+    },
+    {
+      "title": "Construction Crew",
+      "company": "PlayBuilders",
+      "color": "Orange",
+      "price": 12.99,
+      "details": "Construction vehicle toy set with bulldozer, crane, and dump truck",
+      "img": "https://i.pinimg.com/736x/b1/fe/ce/b1fececf0959691e7619e9a0fd11d01e.jpg",
+      "model": "CC-2023"
+    },
+    {
+      "title": "Formula Speedster",
+      "company": "Racing Dynamics",
+      "color": "Silver",
+      "price": 34.99,
+      "details": "Formula racing car toy with aerodynamic design and adjustable spoiler",
+      "img": "https://rukminim1.flixcart.com/image/612/612/xif0q/remote-control-toy/l/s/m/famous-car-remote-control-3d-car-with-led-lights-chargeable-1-original-imagzzx5yy2ggubg.jpeg?q=70",
+      "model": "FS-2023"
+    },
+    {
+      "title": "Rescue Heroes",
+      "company": "Hero Toys",
+      "color": "Red/White",
+      "price": 19.99,
+      "details": "Emergency vehicle toy set with fire truck, ambulance, and police car",
+      "img": "https://img.freepik.com/premium-photo/children-s-toys-table_199743-2840.jpg?size=626&ext=jpg&ga=GA1.1.1378343160.1684426870&semt=ais",
+      "model": "RH-2023"
+    },
+    {
+      "title": "Adventure Explorer",
+      "company": "Adventure Toys",
+      "color": "Green",
+      "price": 29.99,
+      "details": "Off-road adventure vehicle toy with roof rack and spare tire",
+      "img": "https://img.freepik.com/premium-photo/children-s-toys-table_199743-2840.jpg?size=626&ext=jpg&ga=GA1.1.1378343160.1684426870&semt=ais",
+      "model": "AE-2023"
+    },
+    {
+      "title": "Classic Cruiser",
+      "company": "Retro Toys",
+      "color": "Black",
+      "price": 16.99,
+      "details": "Vintage-style car toy with retro design and openable trunk",
+      "img": "https://img.freepik.com/premium-photo/superheroes-children-playing-home_411285-1169.jpg?w=740",
+      "model": "CC-2023"
+    },
+    {
+      "title": "Speedy Dragster",
+      "company": "Speed Racers",
+      "color": "Purple",
+      "price": 39.99,
+      "details": "Drag racing car toy with powerful engine and sleek aerodynamics",
+      "img": "https://m.media-amazon.com/images/I/71dYfrptAFL._SL1256_.jpg",
+      "model": "SD-2023"
+    }
+  ]
+  
