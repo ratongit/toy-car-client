@@ -29,7 +29,7 @@ Access tokens, obtained during authentication, allow clients to access protected
        <h1 className="text-3xl text-white "><span className="font-semibold text-red-400">Question :3</span>What is express js? What is Nest JS ?</h1>   
        <p className='text-sky-200 text-lg my-20 '><span className="font-lg "> Answer :</span>Express.js is a  framework for Node.js, making it easier to build web servers. it is  handle HTTP requests and responses.
 <br />
-Nest.js is a powerful and scalable Node.js framework that builds on top of Express.js, providing additional features and a modular structure for building structured and maintainable server-side applications.
+Nest.js is a  powerful scalable Node.js framework that builds on top of Express.js, providing additional features and a modular structure for building structured and maintainable server-side applications.
 
 
 
