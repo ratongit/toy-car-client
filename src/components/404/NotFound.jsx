@@ -1,5 +1,7 @@
+import usetitle from "../hooks/UseTitle";
 
 const NotFound = () => {
+    usetitle('Not-found')
     return (
         <div className="h-screen">
 

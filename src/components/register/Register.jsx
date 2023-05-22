@@ -1,10 +1,11 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
+import usetitle from "../hooks/UseTitle";
 
 const Register = () => {
 const {creactUser}=useContext(AuthContext)
 
-
+usetitle('register')
 
     const HendleSubmit = (event) => {
         event.preventDefault()

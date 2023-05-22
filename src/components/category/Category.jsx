@@ -1,10 +1,11 @@
 import {  useState } from "react";
 import { Link } from "react-router-dom";
 import './category.css'
+import usetitle from "../hooks/UseTitle";
 
 const Category = () => {
 
-
+usetitle('Category')
     const [category, setCategory] = useState([])
 
     const HendleSubmit = (event) => {

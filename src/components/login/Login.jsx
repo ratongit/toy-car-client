@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import AuthProvider, { AuthContext } from "../../providers/AuthProvider";
+import usetitle from "../hooks/UseTitle";
 
 const Login = () => {
 
+    usetitle('LogIn')
     
     const {singIn}=useContext(AuthContext)
 

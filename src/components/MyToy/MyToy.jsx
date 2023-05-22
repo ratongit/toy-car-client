@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
+import usetitle from "../hooks/UseTitle";
 
 const MyToy = () => {
     const [mytoy,setMytoy]=useState([])
 
-
+usetitle('Mytoy')
 
     useEffect(()=>{
         // fetch('db.json')
-        fetch('http://localhost:5000/bookings')
+        fetch('https://car-toy-server-dusky.vercel.app/bookings')
         .then(res=>res.json())
         .then(data=>setMytoy(data))
     },[])
@@ -18,7 +19,7 @@ const MyToy = () => {
         const Proceed= confirm('Are You Sure To Delete')
 
         if(Proceed){
-fetch(`http://localhost:5000/bookings/${title}`,{
+fetch(`https://car-toy-server-dusky.vercel.app/${title}`,{
     method:'DELETE',
 })
 .then(res=>res.json())

@@ -1,9 +1,10 @@
 import { useLoaderData } from "react-router-dom";
 // import { Link } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
+import usetitle from "../hooks/UseTitle";
 
 const BuyToy = () => {
-
+usetitle('Car-detiles')
     
     
     const toyDetails=useLoaderData()
