@@ -4,7 +4,7 @@ import Toy from "./Toy";
 const Alltoy = () => {
    usetitle('All-Toy')
     return (
-        <div>
+        <div className="mt-10">
             
             <Toy></Toy>
         </div>

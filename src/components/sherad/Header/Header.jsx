@@ -2,6 +2,8 @@ import { useContext } from 'react';
 import '../Header/header.css'
 import { Link } from 'react-router-dom';
 import { FaUserAlt } from "react-icons/fa";
+import logo from '../../../assets/rsc.logo.png'
+
 
 import { AuthContext } from '../../../providers/AuthProvider';
 const Header = () => {
@@ -57,7 +59,7 @@ const hendleProfile= ()=>{
 
                     </div>
                     <div className="logo flex ">
-                        <img className='rounded-3xl max-md:hidden' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5E6_6cMuTPkSm99THsmjWFzB2u16g8nJ0Q&usqp=CAU' alt="" />
+                        <img className='rounded-3xl max-md:hidden' src={logo} alt="" />
                         <h1 className='text-2xl font-bold text-blue-600  flex '><span className='text-orange-500 text-2xl ms-1'>T</span>oy <span className='text-orange-500 text-2xl ms-1'>C</span>ar</h1>
                     </div>
                 </div>
@@ -79,7 +81,6 @@ const hendleProfile= ()=>{
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-5">
-                    <input type="text" placeholder="Search" className="input input-bordered  hidden lg:inline" />
 
                     <div className="w-10 text-center  rounded-full ">
 
