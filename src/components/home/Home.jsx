@@ -16,7 +16,10 @@ const Home = () => {
 <Category></Category>
 <Gellery></Gellery>
 <Company></Company>
+<div className="mt-10">
+<h1 className="mb-16 text-center text-yellow-200 text-2xl">Chack Out Toy-Car</h1>
             <Toy></Toy>
+</div>
 
    </div>
     );
