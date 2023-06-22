@@ -23,7 +23,7 @@ usetitle('register')
         .then(res=>{
             const user =res.user;
             console.log(user)
-            form.reset()
+            user.reset()
             alert('Congratulation Registation successful ')
             
         })

@@ -36,7 +36,8 @@ usetitle('Car-detiles')
 
 }
 
-    return (<div className="hero min-h-screen mt-6" style={{ backgroundImage: `url(${img})` }}>
+    return (
+    <div className="hero min-h-screen mt-6" style={{ backgroundImage: `url(${img})` }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">

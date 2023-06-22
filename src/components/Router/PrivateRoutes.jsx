@@ -15,7 +15,7 @@ return children;
     return (
         <>
 {        alert('Pleasc log in first !!!')
-}        <Navigate to='/login' replace></Navigate> 
+}        <Navigate to='/' replace='true'></Navigate> 
         </>
     );
 };
